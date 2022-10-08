@@ -51,8 +51,8 @@ public class Goods implements  Comparable{
             //方式一：
             if(this.price > goods.price){
                 return 1;
-            }else if(this.price < goods.price){
-                return -1;
+//            }else if(this.price < goods.price){
+//                return 1;
             }else{
 //                return 0;
                return -this.name.compareTo(goods.name);

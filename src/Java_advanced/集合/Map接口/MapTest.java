@@ -163,7 +163,7 @@ public class MapTest {
     int size()：返回map中key-value对的个数
     boolean isEmpty()：判断当前map是否为空
     boolean equals(Object obj)：判断当前map和参数对象obj是否相等
-  */
+    */
     @Test
     public void test4(){
         Map map = new HashMap();

@@ -125,13 +125,13 @@ public class MapTest {
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }
-        System.out.println();
+        System.out.println("====");
         //遍历所有的value集：values()
         Collection values = map.values();
         for(Object obj : values){
             System.out.println(obj);
         }
-        System.out.println();
+        System.out.println("====");
         //遍历所有的key-value
         //方式一：entrySet()
         Set entrySet = map.entrySet();
@@ -143,7 +143,7 @@ public class MapTest {
             System.out.println(entry.getKey() + "---->" + entry.getValue());
 
         }
-        System.out.println();
+        System.out.println("====");
         //方式二：
         Set keySet = map.keySet();
         Iterator iterator2 = keySet.iterator();

@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class ExeceptionTest {
 
     //编译时异常(checked)
-//    @Test
+//    @TestDemo
 //    public void test(){
 //		File file = new File("hello.txt");
 //		FileInputStream fis = new FileInputStream(file);

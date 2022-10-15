@@ -1,4 +1,4 @@
-package Java_advanced.泛型.练习;
+package Java_advanced.泛型.练习.one;
 
 import org.junit.Test;
 

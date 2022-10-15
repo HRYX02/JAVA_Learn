@@ -1,6 +1,5 @@
 package Java_advanced.泛型.通配符;
 
-import Java_advanced.泛型.使用场景.Student;
 import org.junit.Test;
 
 import java.util.AbstractList;
@@ -139,8 +138,7 @@ public class GenericTest {
         List<Person> list4 = new ArrayList<Person>();
         List<Object> list5 = new ArrayList<Object>();
 
-//        list1 = list3;
-
+        list1 = list3;
         list1 = list4;
 //        list1 = list5;
 
@@ -157,7 +155,7 @@ public class GenericTest {
 
         list2 = list4;
         Object obj = list2.get(0);
-        ////编译不通过
+        //编译不通过
 //        Person obj = list2.get(0);
 
         //写入数据：
@@ -166,7 +164,7 @@ public class GenericTest {
 
         //编译通过
         list2.add(new Person());
-//        list2.add(new Student());
+        list2.add(new Student());
 
     }
 

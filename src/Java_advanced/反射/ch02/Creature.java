@@ -6,7 +6,7 @@ import java.io.Serializable;
  * @author shkstart
  * @create 2019 下午 3:12
  */
-public abstract class  Creature<T> implements Serializable {
+public abstract class Creature<T> implements Serializable {
     private char gender;
     public double weight;
 

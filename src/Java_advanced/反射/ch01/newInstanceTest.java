@@ -13,6 +13,7 @@ public class newInstanceTest {
     @Test
     public void test1() throws Exception {
         Class<Person> clazz = Person.class;
+        System.out.println(clazz);
         /*
         newInstance():调用此方法，创建对应的运行时类的对象。内部调用了运行时类的空参的构造器。
 

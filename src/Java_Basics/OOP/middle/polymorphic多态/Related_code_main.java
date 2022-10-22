@@ -22,6 +22,7 @@ public class Related_code_main {
         Man m1 = (Man)p1;
         System.out.println(m1.id);
         m1.earnMoney();
+        System.out.println("========");
 
         //使用强转时，可能出现ClassCastException的异常。
 //        Women w1 = (Women)p1;
@@ -40,10 +41,10 @@ public class Related_code_main {
         //练习：
         //问题一：编译时通过，运行时不通过
         Person p3 = new Man();
-        Women w3 = (Women)p3;
+//        Women w3 = (Women)p3;
 
         Person p4 = new Person();
-        Women w4 = (Women)p4;
+//        Women w4 = (Women)p4;
 
         //问题二：编译通过，运行通过
         Object obj = new Man();
